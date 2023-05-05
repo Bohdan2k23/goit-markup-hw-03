@@ -195,10 +195,11 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-/* .section-two-strategy {
+.section-two-item {
   width: calc((100% - 72px) / 4);
-} */
+}
 .sections-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
