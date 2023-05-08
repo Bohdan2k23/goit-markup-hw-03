@@ -2,7 +2,7 @@
   list-style: none;
 }
 .link {
-  text-decoration: NONE;
+  text-decoration: none;
 }
 button {
   cursor: pointer;
@@ -40,19 +40,12 @@ img {
   justify-content: space-between;
 }
 .main-header {
-  display: flex;
-  align-items: center;
-  height: 72px;
-  padding-right: 156px;
-  padding-left: 156px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: block;
   border-bottom: 1px solid #e7e9fc;
 }
 .top-nav {
   display: flex;
   align-items: center;
-  column-gap: 76px;
 }
 .menu {
   display: flex;
@@ -73,28 +66,17 @@ img {
   background-color: var(--first-color);
 }
 .logo {
-  text-decoration: NONE;
+  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-one {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 .logo,
 .logo-one {
@@ -190,8 +172,6 @@ img {
 .section-two-list {
   display: flex;
   align-items: center;
-  margin-top: 120px;
-  margin-bottom: 120px;
   gap: 24px;
 }
 
@@ -230,11 +210,6 @@ img {
 /* ========SECTION3======= */
 .section-three {
   padding-bottom: 120px;
-  margin-bottom: 120px;
-  margin-right: 156px;
-  margin-left: 156px;
-  width: 1128px;
-  height: 412px;
 }
 .section-three-list {
   display: flex;
@@ -320,18 +295,9 @@ img {
   color: #4d5ae5;
 }
 .footer-logo-two {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-logo,
-.footer-logo-two {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -401,6 +367,8 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 /* =========PORTFOLIO======== */
+pattern {
+  display: none;
+}
